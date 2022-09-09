@@ -1,59 +1,80 @@
-/*body {
-    width: 1440px;
-    margin: auto;
-    background-color: #ffffff;
+*{
+    margin: 0;
+    padding: 0;
 }
-*/
-/*.principal {
-    width: 1440px;
-    font-size: 15px;
+body {
+    width: 1440;
+    margin: auto;
     font-family: 'League Spartan', sans-serif;
-}*/
-
-/*.principal {
-    background-image: url("images/bg-pattern-bottom-desktop.svg");
-}*/
+    background-image: url("../images/bg-pattern-bottom-desktop.svg"), url("../images/bg-pattern-top-desktop.svg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+}
 
 .text1 {
     color: #502050;
-    width: 432px;
-    height: 168px;
+    width: 390px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 .text2 {
     color: #937b92;
     width: 350px;
-    height: 96px;
     font-weight: 400;
     font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    line-height: 20px;
 }
 
 .ratings {
     background-color: #f7f2f7;
     color: #502050;
-    width: 441px;
-    height: 20px;
     font-weight: 500;
+    width: fit-content;
     text-align: center;
     border-radius: 8px;
-    padding: 18px;
     font-size: 15px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    padding: 15px 80px 15px 30px;
+}
+
+.ratings img {
+    margin-right: 4px;
+}
+
+.ratings p {
+    margin-left: 15px;
+    /*margin-right: 10px;*/
+    display: inline-block;
 }
 
 .person {
     background-color: #502050;
-    width: 255px;
+    width: 260px;
     height: 130px;
     border-radius: 8px;
-    padding: 30px;
+    padding: 50px;
     font-size: 15px;
+    margin: 15px;
+    /*display: inline-block;*/
+}
+.image {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.image img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
-.image {
-    border-radius: 50%;
-}
 
 .name {
     color: #ffffff;
@@ -68,4 +89,63 @@
 .info {
     color: #f7f2f7;
     font-weight: 400;
+    display: block;
+    margin: 65px 0;
+    line-height: 20px;
+}
+
+.person-data {
+    float: left;
+    width: calc(100% - 40px - 20px);
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1172px;
+    margin: auto;
+    /*align-items: center;*/
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.top-text{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    align-items: left;
+}
+.ratings-container{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.r2{
+    margin-left: 50px;
+}
+
+.r3{
+    margin-left: 110px;
+    padding-right: 100px;
+}
+
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+
+.p2 {
+    margin-top: 40px
+}
+
+.p3 {
+    margin-top: 80px;
 }
