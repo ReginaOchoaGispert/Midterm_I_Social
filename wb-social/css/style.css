@@ -1,0 +1,71 @@
+/*body {
+    width: 1440px;
+    margin: auto;
+    background-color: #ffffff;
+}
+*/
+/*.principal {
+    width: 1440px;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}*/
+
+/*.principal {
+    background-image: url("images/bg-pattern-bottom-desktop.svg");
+}*/
+
+.text1 {
+    color: #502050;
+    width: 432px;
+    height: 168px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.text2 {
+    color: #937b92;
+    width: 350px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.ratings {
+    background-color: #f7f2f7;
+    color: #502050;
+    width: 441px;
+    height: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+    padding: 18px;
+    font-size: 15px;
+}
+
+.person {
+    background-color: #502050;
+    width: 255px;
+    height: 130px;
+    border-radius: 8px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.name {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.specification {
+    color: #ee68a4;
+    font-weight: 400;
+}
+
+.info {
+    color: #f7f2f7;
+    font-weight: 400;
+}
